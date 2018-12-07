@@ -44,5 +44,12 @@ namespace SimpleTextEditor
                 File.WriteAllText(_name, textBox1.Text);
             }
         }
+
+        private void replaceButton_Click(object sender, EventArgs e)
+        {
+            string textToRead = File.ReadAllText(_name);
+            textToRead = textToRead.Replace("Swindler", "Phoebe Albert");
+            File.WriteAllText(_name, textToRead);
+        }
     }
 }

@@ -35,6 +35,7 @@
             this.openButton = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.replaceButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.saveButton);
             this.flowLayoutPanel1.Controls.Add(this.openButton);
+            this.flowLayoutPanel1.Controls.Add(this.replaceButton);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 397);
@@ -98,6 +100,16 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // replaceButton
+            // 
+            this.replaceButton.Location = new System.Drawing.Point(446, 3);
+            this.replaceButton.Name = "replaceButton";
+            this.replaceButton.Size = new System.Drawing.Size(111, 41);
+            this.replaceButton.TabIndex = 2;
+            this.replaceButton.Text = "Replace";
+            this.replaceButton.UseVisualStyleBackColor = true;
+            this.replaceButton.Click += new System.EventHandler(this.replaceButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -122,6 +134,7 @@
         private System.Windows.Forms.Button openButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button replaceButton;
     }
 }
 
