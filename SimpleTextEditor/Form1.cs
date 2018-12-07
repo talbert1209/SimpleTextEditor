@@ -12,9 +12,21 @@ namespace SimpleTextEditor
 {
     public partial class Form1 : Form
     {
+        private string _name;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void openButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
