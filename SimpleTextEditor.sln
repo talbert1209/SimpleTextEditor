@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTextEditor", "SimpleTextEditor\SimpleTextEditor.csproj", "{8C9529A6-6437-4F1B-A065-093BFCAEE420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9529A6-6437-4F1B-A065-093BFCAEE420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9529A6-6437-4F1B-A065-093BFCAEE420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9529A6-6437-4F1B-A065-093BFCAEE420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9529A6-6437-4F1B-A065-093BFCAEE420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852ADC28-1799-46D7-AFC8-8DD2C03EB840}
+	EndGlobalSection
+EndGlobal
